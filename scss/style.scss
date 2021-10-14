@@ -127,6 +127,7 @@ section {
       font-size: 50px;
       margin:0 0 40px;
       padding-top:20px;
+      display: none;
       opacity: 0;
       -moz-transition: all 250ms ease-in-out ;
       -o-transition: all 250ms ease-in-out;
@@ -143,11 +144,16 @@ section {
           padding: 10px;
           font-weight: 200;
           color: white;
+          outline: solid white 1px;
+            outline-offset: 5px;
           
 
           a{
             text-decoration: none;
             color: white;
+            font-size: 30px;
+            outline: solid white 1px;
+            outline-offset: 5px;
           }
 
           }
