@@ -92,16 +92,16 @@ section article:hover P {
   display: inline-block;
 }
 section article:nth-child(1) {
-  background: url(/images/Menu.png) center center;
+  background: url(/images/Menu-min.jpg) center center;
 }
 section article:nth-child(1):hover {
-  background: url(/images/Menu2.png) center center;
+  background: url(/images/Menu2-min.jpg) center center;
 }
 section article:nth-child(2) {
-  background: url(/images/Deco.png) center center;
+  background: url(/images/Deco-min.jpg) center center;
 }
 section article:nth-child(2):hover {
-  background: url(/images/Deco2.png) center center;
+  background: url(/images/Deco2-min.jpg) center center;
 }
 section article h1 {
   font-family: "dancing script";
