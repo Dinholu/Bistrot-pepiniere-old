@@ -88,6 +88,9 @@ section article:hover > h2 {
   writing-mode: horizontal-tb;
   text-orientation: mixed;
 }
+section article:hover P {
+  display: inline-block;
+}
 section article:nth-child(1) {
   background: url(/images/Menu.png) center center;
 }
@@ -117,7 +120,7 @@ section article h1 {
   align-items: flex-start;
 }
 section article h1 p {
-  display: inline-block;
+  display: none;
   margin-top: 3rem;
   font-size: 20px;
   padding: 10px;

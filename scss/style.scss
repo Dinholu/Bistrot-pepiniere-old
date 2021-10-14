@@ -103,6 +103,10 @@ section {
         text-orientation: mixed;
  
       }
+
+      P{
+        display: inline-block;
+      }
     }
     
     
@@ -138,7 +142,7 @@ section {
       justify-content: center;
       align-items: flex-start;
       p{
-        display: inline-block;
+        display: none;
         margin-top: 3rem;
           font-size: 20px;
           padding: 10px;
@@ -171,6 +175,7 @@ section {
         left: 0;
       text-transform: uppercase;
       width: 100%;
+      
        
       }
 
