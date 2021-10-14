@@ -35,21 +35,21 @@ body {
 }
 
 .callout {
-	position: absolute;
-	  left: 0;
-	  bottom: 0;
-	background: rgba(255, 255, 255, .15);
-	width: 100%;
-	height: 61px;
-	padding: 10px 60px;
-	text-align: center;
-	z-index: 2;
-  display: flex;
-justify-content: space-between;
-a{
-  text-decoration: none;
-  color: white;
-}}
+ 	position: absolute;
+ 	  left: 0;
+ 	  bottom: 0;
+ 	background: rgba(255, 255, 255, .15);
+ 	width: 100%;
+ height: 61px;
+ padding: 10px 60px;
+ 	text-align: center;
+ 	z-index: 2;
+   display: flex;
+ justify-content: space-between;
+ a{
+   text-decoration: none;
+   color: white;
+ }}
 
 
 
@@ -107,17 +107,17 @@ section {
     
     
     &:nth-child(1) {
-      background: url(/images/Menu.jpg) center center;
+      background: url(/images/Menu.png) center center;
       &:hover {
-        background: url(/images/Menu2.jpg) center center;
+        background: url(/images/Menu2.png) center center;
       }
     }
 
    
     &:nth-child(2){
-      background:url(/images/Deco.jpg) center center;
+      background:url(/images/Deco.png) center center;
       &:hover {
-      background: url(/images/Menu2.jpg) center center;    }
+      background: url(/images/Deco2.png) center center;    }
     
       }
     
@@ -174,10 +174,11 @@ section {
       
     h2 {
       // display:inline;
+      
   
       font-size: 50px;
       margin:0 0 40px;
-      padding-top:7rem;
+      padding-top:5rem;
       opacity: 1;
       -moz-transition: all 250ms ease-in-out ;
       -o-transition: all 250ms ease-in-out;

@@ -89,16 +89,16 @@ section article:hover > h2 {
   text-orientation: mixed;
 }
 section article:nth-child(1) {
-  background: url(/images/Menu.jpg) center center;
+  background: url(/images/Menu.png) center center;
 }
 section article:nth-child(1):hover {
-  background: url(/images/Menu2.jpg) center center;
+  background: url(/images/Menu2.png) center center;
 }
 section article:nth-child(2) {
-  background: url(/images/Deco.jpg) center center;
+  background: url(/images/Deco.png) center center;
 }
 section article:nth-child(2):hover {
-  background: url(/images/Menu2.jpg) center center;
+  background: url(/images/Deco2.png) center center;
 }
 section article h1 {
   font-family: "dancing script";
@@ -141,7 +141,7 @@ section > h1:after {
 h2 {
   font-size: 50px;
   margin: 0 0 40px;
-  padding-top: 7rem;
+  padding-top: 5rem;
   opacity: 1;
   -moz-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
