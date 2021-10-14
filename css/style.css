@@ -35,13 +35,19 @@ body {
 .callout {
   position: absolute;
   left: 0;
-  top: 0;
+  bottom: 0;
   background: rgba(255, 255, 255, 0.15);
   width: 100%;
   height: 61px;
   padding: 10px 60px;
   text-align: center;
   z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.callout a {
+  text-decoration: none;
+  color: white;
 }
 
 section {
@@ -57,7 +63,6 @@ section article {
   width: 50%;
   height: 100%;
   padding: 7% 20px 10%;
-  display: inline-block;
   float: left;
   position: relative;
   text-align: center;
@@ -83,16 +88,20 @@ section article:hover > h2 {
   writing-mode: horizontal-tb;
   text-orientation: mixed;
 }
-section article:before {
-  content: " ";
-}
 section article:nth-child(1) {
   background: url(/images/Menu.jpg) center center;
+}
+section article:nth-child(1):hover {
+  background: url(/images/Menu2.jpg) center center;
 }
 section article:nth-child(2) {
   background: url(/images/Deco.jpg) center center;
 }
+section article:nth-child(2):hover {
+  background: url(/images/Menu2.jpg) center center;
+}
 section article h1 {
+  font-family: "dancing script";
   font-size: 50px;
   margin: 0 0 40px;
   padding-top: 20px;
@@ -102,20 +111,21 @@ section article h1 {
   transition: all 250ms ease-in-out;
   position: relative;
   z-index: 2;
-  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 section article h1 p {
   display: inline-block;
-  margin-top: 5rem;
+  margin-top: 3rem;
   font-size: 20px;
-  padding: 15px;
+  padding: 10px;
   font-weight: 200;
-  background-color: #ffffff;
-  color: black;
-  border: 5px outset #26D187;
+  color: white;
 }
 section article h1 p a {
   text-decoration: none;
+  color: white;
 }
 section > h1:after {
   content: "";
@@ -131,7 +141,7 @@ section > h1:after {
 h2 {
   font-size: 50px;
   margin: 0 0 40px;
-  padding-top: 20px;
+  padding-top: 7rem;
   opacity: 1;
   -moz-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
