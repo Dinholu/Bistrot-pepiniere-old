@@ -100,7 +100,10 @@ section {
       }
 
       > h2 {
+        -moz-transition: all 250ms ease-in-out;
+        -o-transition: all 250ms ease-in-out;
         transition: all 250ms ease-in-out;
+        -webkit-transition: all 250ms ease-in-out;
         writing-mode: horizontal-tb;
         text-orientation: mixed;
  
@@ -138,6 +141,7 @@ section {
       -moz-transition: all 250ms ease-in-out ;
       -o-transition: all 250ms ease-in-out;
       transition: all 250ms ease-in-out;
+      -webkit-transition: all 250ms ease-in-out;
       position: relative;
       z-index: 2;
       display: flex;
@@ -196,6 +200,7 @@ section {
       -moz-transition: all 250ms ease-in-out ;
       -o-transition: all 250ms ease-in-out;
       transition: all 250ms ease-in-out;
+      -webkit-transition: all 250ms ease-in-out;
       position: relative;
       z-index: 2;
       writing-mode: vertical-rl;

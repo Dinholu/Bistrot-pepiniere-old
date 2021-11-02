@@ -86,7 +86,10 @@ section article:hover > h1 {
   opacity: 1;
 }
 section article:hover > h2 {
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
   writing-mode: horizontal-tb;
   text-orientation: mixed;
 }
@@ -115,6 +118,7 @@ section article h1 {
   -moz-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
   position: relative;
   z-index: 2;
   display: flex;
@@ -157,6 +161,7 @@ h2 {
   -moz-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
   position: relative;
   z-index: 2;
   writing-mode: vertical-rl;
