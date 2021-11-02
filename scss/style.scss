@@ -76,12 +76,14 @@ section {
     -moz-transition: all 250ms ease-in-out ;
     -o-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
     
     &:hover {
         width: 70%;
       -moz-transition: all 250ms ease-in-out;
       -o-transition: all 250ms ease-in-out;
       transition: all 250ms ease-in-out;
+      -webkit-transition: all 250ms ease-in-out;
       opacity: 1;
       
       
